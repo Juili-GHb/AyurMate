@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AyurMate</title>
+
+    <!-- Tailwind CSS via Play CDN (no PostCSS needed) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Optional: A tiny base style to keep the green vibe consistent -->
+    <style>
+      :root {
+        --brand-green: #10b981; /* emerald-500 */
+        --brand-deep: #047857;  /* emerald-700 */
+        --brand-light: #ecfdf5; /* emerald-50 */
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-white text-gray-800">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
